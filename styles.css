@@ -4,3 +4,70 @@
 * {
   box-sizing: border-box;
 }
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.pb-header {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 160px;
+  margin-bottom: 35px;
+}
+.pb-header__link1,
+.pb-header__link3 {
+  padding-right: 40px;
+}
+
+.pb-header__img {
+  padding: 0px 25%;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #fbf7f6;
+}
+.imgbox img {
+  width: 50%;
+  height: 100%;
+}
+
+.imgbox-desc {
+  /* background-color: #fbf7f6; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  padding: 6% 5% 5% 5%;
+}
+.imgbox-desc p {
+  font-size: 29px;
+  /* width: 50%; */
+  height: 100%;
+  line-height: 35px;
+  text-align: center;
+}
+
+.imgbox-desc button {
+  width: 240px;
+  height: 55px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.imgbox-desc button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
